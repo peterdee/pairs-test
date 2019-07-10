@@ -1,0 +1,30 @@
+{
+  "name": "pairs-test",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Peter",
+    "url": "https://github.com/peterdee"
+  },
+  "description": "Pairs calculation",
+  "scripts": {
+    "dev": "PORT=3030 nodemon ./bin/www"
+  },
+  "engines": {
+    "node": "12.6.0",
+    "npm": "6.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterdee/pairs-test.git"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
