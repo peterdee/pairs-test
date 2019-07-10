@@ -1,8 +1,91 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* reset default styles */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  vertical-align: baseline;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-a {
-  color: #00B7FF;
+body {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 50px;
+}
+
+input {
+  width: 700px;
+  border: none;
+  border-bottom: 2px solid #1F7F4D;
+  background-color: inherit;
+  padding: 5px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.98);
+}
+input:focus, button:focus {
+  outline: none;
+}
+button {
+  border: none;
+  background-color: #1f7f4d;
+  color: #fdfdfd;
+  padding: 10px;
+  text-align: center;
+  min-width: 225px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #0f351a;
+}
+.flex-center {
+  justify-content: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+.title {
+  font-size: 24px;
+  color: #1f7f4d;
+}
+.divider {
+  border: 1px solid #1f7f4d;
+}
+.margin-bottom {
+  margin-bottom: 15px;
+}
+.margin-top {
+  margin-top: 15px;
+}
+.error {
+  color: #9b0a1b;
+  text-align: center;
 }
